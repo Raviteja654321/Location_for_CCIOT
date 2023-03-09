@@ -1,5 +1,5 @@
 // Replace YOUR_AUTH_TOKEN with your Blynk project's Auth Token
-const url = `http://cloud.blynk.cc:8080/YOUR_AUTH_TOKEN/update/v1`;
+const url = `http://cloud.blynk.cc:8080/Le1pNdDBrs0jBm2qL3VKWulK3QBCF7ix/update/v1`;
 
 // Get the current location of the device
 navigator.geolocation.getCurrentPosition(position => {
