@@ -1,4 +1,4 @@
-const url = 'http://cloud.blynk.cc:8080/Le1pNdDBrs0jBm2qL3VKWulK3QBCF7ix/update/V1';
+const url = 'https://blynk.cloud/external/api/update?token=Le1pNdDBrs0jBm2qL3VKWulK3QBCF7ix&pin=V1';
 
 navigator.geolocation.getCurrentPosition(position => {
   const { latitude, longitude } = position.coords;
