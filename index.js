@@ -1,4 +1,4 @@
-var AUTH = 'your_auth_token';
+var AUTH = '38YW7uNne98RK9y42zLXh9Vf8CpmMegp';
 var blynk = new Blynk.Blynk(AUTH);
 
 function getLocation() {
@@ -12,7 +12,7 @@ function getLocation() {
 function sendLocationToBlynk(position) {
   var lat = position.coords.latitude;
   var lng = position.coords.longitude; 
-  var mapUrl = "https://maps.googleapis.com/maps/api/staticmap?center=" + lat + "," + lng + "&zoom=15&size=300x300&markers=color:red%7Clabel:S%7C" + lat + "," + lng + "&key=YOUR_API_KEY";
+  var mapUrl = "https://maps.googleapis.com/maps/api/staticmap?center=" + lat + "," + lng + "&zoom=15&size=300x300&markers=color:red%7Clabel:S%7C" + lat + "," + lng + "&key=AIzaSyDQfec55FN_vXTsoqgyjEUnSDoPjbZHxI4";
   
 //   blynk.virtualWrite(0, lat);
   blynk.virtualWrite(4, lng);
